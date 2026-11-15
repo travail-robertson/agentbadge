@@ -1,0 +1,50 @@
+{
+  "AGT-001": {
+    "allowed_actions": ["read", "create_draft"],
+    "allowed_resources": ["finance/invoices/*", "finance/reports/*"],
+    "roles": ["Finance-ReadOnly"],
+    "expires": "2027-03-31"
+  },
+  "AGT-002": {
+    "allowed_actions": ["read"],
+    "allowed_resources": ["hr/policies/*"],
+    "roles": ["HR-Policy-Readers"],
+    "expires": "2026-12-01"
+  },
+  "AGT-003": {
+    "allowed_actions": ["read", "comment"],
+    "allowed_resources": ["repo/*"],
+    "roles": ["Eng-Reviewers"],
+    "expires": "2027-06-30"
+  },
+  "AGT-004": {
+    "allowed_actions": ["read", "send_email"],
+    "allowed_resources": ["crm/customers/*", "email/outbound/customers"],
+    "roles": ["Sales-Users"],
+    "expires": "2026-09-30"
+  },
+  "AGT-005": {
+    "allowed_actions": ["*"],
+    "allowed_resources": ["*"],
+    "roles": ["Domain Admins", "IT-Helpdesk"],
+    "expires": "2027-11-05"
+  },
+  "AGT-006": {
+    "allowed_actions": ["read", "export"],
+    "allowed_resources": ["inventory/*"],
+    "roles": ["Inventory-Readers"],
+    "expires": "2027-01-31"
+  },
+  "AGT-008": {
+    "allowed_actions": ["read"],
+    "allowed_resources": ["marketing/dashboards/*"],
+    "roles": ["Marketing-Viewers"],
+    "expires": "2027-05-12"
+  },
+  "AGT-009": {
+    "allowed_actions": ["read", "create_draft"],
+    "allowed_resources": ["calendar/meetings/*", "notes/meetings/*"],
+    "roles": ["Meeting-Notes-Writers"],
+    "expires": "2027-05-13"
+  }
+}

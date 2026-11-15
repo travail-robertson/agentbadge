@@ -1,0 +1,90 @@
+[
+  {
+    "agent_id": "AGT-001",
+    "name": "InvoiceBot",
+    "owner": "Maria Chen (Finance)",
+    "purpose": "Read vendor invoices and draft weekly payment summaries",
+    "risk_level": "medium",
+    "status": "active",
+    "created_date": "2026-02-10",
+    "approved_by": "Sam Rivera (Security)",
+    "last_used": "2026-11-12"
+  },
+  {
+    "agent_id": "AGT-002",
+    "name": "HR-Helper",
+    "owner": "James Patel (HR)",
+    "purpose": "Answer employee questions about published HR policies",
+    "risk_level": "high",
+    "status": "active",
+    "created_date": "2026-03-01",
+    "approved_by": "Sam Rivera (Security)",
+    "last_used": "2026-11-10"
+  },
+  {
+    "agent_id": "AGT-003",
+    "name": "CodeReviewer",
+    "owner": "Priya Nair (Engineering)",
+    "purpose": "Review pull requests and leave comments; never merges code",
+    "risk_level": "medium",
+    "status": "active",
+    "created_date": "2026-04-15",
+    "approved_by": "Sam Rivera (Security)",
+    "last_used": "2026-11-13"
+  },
+  {
+    "agent_id": "AGT-004",
+    "name": "SalesEmailer",
+    "owner": "Tom Alvarez (Sales)",
+    "purpose": "Draft and send follow-up emails to existing customers",
+    "risk_level": "medium",
+    "status": "active",
+    "created_date": "2026-01-20",
+    "approved_by": "Sam Rivera (Security)",
+    "last_used": "2026-09-28"
+  },
+  {
+    "agent_id": "AGT-005",
+    "name": "ITOpsAgent",
+    "owner": "Dana Kim (IT Operations)",
+    "purpose": "Automate routine IT helpdesk tickets",
+    "risk_level": "high",
+    "status": "active",
+    "created_date": "2025-11-05",
+    "approved_by": "Dana Kim (IT Operations)",
+    "last_used": "2026-11-11"
+  },
+  {
+    "agent_id": "AGT-006",
+    "name": "LegacyReportBot",
+    "owner": "",
+    "purpose": "Generate monthly inventory reports (built by a former employee)",
+    "risk_level": "low",
+    "status": "active",
+    "created_date": "2025-06-30",
+    "approved_by": "Unknown",
+    "last_used": "2026-05-01"
+  },
+  {
+    "agent_id": "AGT-007",
+    "name": "SupportTriage",
+    "owner": "Lena Okafor (Customer Support)",
+    "purpose": "Sort incoming support tickets by urgency",
+    "risk_level": "low",
+    "status": "pending",
+    "created_date": "2026-10-20",
+    "approved_by": null,
+    "last_used": null
+  },
+  {
+    "agent_id": "AGT-008",
+    "name": "MarketingSummarizer",
+    "owner": "Ravi Shah (Marketing)",
+    "purpose": "Summarize campaign performance dashboards",
+    "risk_level": "low",
+    "status": "suspended",
+    "created_date": "2026-05-12",
+    "approved_by": "Sam Rivera (Security)",
+    "last_used": "2026-08-15"
+  }
+]
