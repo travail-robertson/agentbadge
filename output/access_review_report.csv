@@ -1,0 +1,11 @@
+agent_id,agent_name,owner,issue,severity,detail,recommendation
+AGT-004,SalesEmailer,Tom Alvarez (Sales),EXPIRED,High,Access expired 2026-09-30 (44 days ago),Revoke access or have the owner re-certify
+AGT-005,ITOpsAgent,Dana Kim (IT Operations),SELF-APPROVED,High,The agent's owner approved their own agent,Re-approve through an independent security reviewer
+AGT-005,ITOpsAgent,Dana Kim (IT Operations),OVER-PRIVILEGED,High,Wildcard (*) grants every action and/or resource,Replace wildcards with only the actions/resources needed
+AGT-005,ITOpsAgent,Dana Kim (IT Operations),OVER-PRIVILEGED,High,Holds privileged role(s): Domain Admins,Remove admin roles; use a scoped service role
+AGT-006,LegacyReportBot,(none),ORPHANED,High,No accountable human owner on record,Assign an owner within 5 business days or retire the agent
+AGT-001,InvoiceBot,Maria Chen (Finance),INJECTION SEEN,Medium,1 prompt-injection attempt(s) blocked (REQ-03),Investigate the data source that carried the injected text
+AGT-003,CodeReviewer,Priya Nair (Engineering),INJECTION SEEN,Medium,1 prompt-injection attempt(s) blocked (REQ-07),Investigate the data source that carried the injected text
+AGT-006,LegacyReportBot,(none),UNUSED,Medium,No activity for 196 days (last used 2026-05-01),Confirm need; suspend if not required
+AGT-002,HR-Helper,James Patel (HR),EXPIRING SOON,Low,Access expires 2026-12-01 (in 18 days),Owner to re-certify before expiry
+AGT-007,SupportTriage,Lena Okafor (Customer Support),STALE PENDING,Low,Waiting for onboarding for 24 days,Complete onboarding or close the request
