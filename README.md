@@ -39,6 +39,12 @@ Agent request ─► R1 Registered? ─► R2 Active? ─► R3 Has policy? ─�
 
 **Defense in depth:** in REQ-08, the injected text has no known trigger phrase, so detection (R5) misses it. Least privilege (R6) still blocks it, because pushing code isn't in the agent's job.
 
+## Dashboard
+
+![AgentBadge dashboard](docs/images/dashboard.png)
+
+`make_dashboard.py` turns the demo output into a visual page. Run it after `main.py`, then open `output/dashboard.html` in any browser.
+
 ## Demo results
 
 ```
