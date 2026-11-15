@@ -67,7 +67,7 @@ The access review found **10 issues** across 9 agents, including an expired poli
 Requires Python 3.10 or newer. Nothing to install.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/agentbadge.git
+git clone https://github.com/travail-robertson/agentbadge.git
 cd agentbadge
 python main.py                       # run the full demo
 python -m unittest discover tests    # run the 10 automated tests
@@ -128,4 +128,4 @@ SQLite storage · Streamlit dashboard · Entra ID / Okta group sync · auto-susp
 
 ## About
 
-Built by **[Your Name]**, a GRC professional with 9 years in compliance and IT asset governance, moving into cybersecurity. [LinkedIn](https://linkedin.com/in/your-profile)
+Built by **Travail Robertson**, a GRC professional with 9 years in compliance and IT asset governance, moving into cybersecurity. [LinkedIn](https://linkedin.com/in/travail-robertson/)
