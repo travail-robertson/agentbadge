@@ -2,8 +2,11 @@
 
 **Govern AI agents the way companies govern employees.** Each agent gets an inventory record, an onboarding approval, least-privilege access, runtime enforcement, an audit trail and periodic access reviews.
 
-> Portfolio prototype built with Python's standard library. All data is fake.
-
+> **For recruiters & hiring managers:** Every control is mapped to **NIST AI RMF 1.0, NIST CSF 2.0, NIST SP 800-53 (AC-2, AC-5, AC-6, AU-9), and the OWASP Top 10 for LLM Applications**.
+>
+> 📋 **Start here:** [Control Mapping](docs/CONTROL_MAPPING.md) · [Portfolio Summary](docs/PORTFOLIO_SUMMARY.md)
+>
+> Portfolio prototype built with Python's standard library; all data is fake. Built by Travail Robertson, GRC / IT compliance · [LinkedIn](https://www.linkedin.com/in/travail-robertson/)
 ---
 
 ## The problem
