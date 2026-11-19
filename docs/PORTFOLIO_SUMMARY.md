@@ -2,7 +2,8 @@
 
 ## Resume: project entry
 
-**AgentBadge: AI Agent Governance Prototype** (Python) | github.com/YOUR-USERNAME/agentbadge
+**AgentBadge: AI Agent Governance Prototype** (Python) | github.com/travail-robertson/agentbadge
+
 - Built an identity-governance prototype that applies the employee access lifecycle to AI agents: inventory, onboarding approval, least-privilege policies, runtime enforcement, audit logging and access reviews.
 - Wrote a runtime policy engine (9 ordered rules) that allows, blocks or flags each agent action. It blocked 3 of 3 simulated prompt-injection attempts, including one that got past keyword detection and was stopped by least-privilege enforcement.
 - Built a tamper-evident, hash-chained audit log and an automated access review that flagged 10 issues (expired, orphaned, self-approved and over-privileged agents) across 9 sample agents.
@@ -32,7 +33,8 @@ So I built **AgentBadge**, a beginner Python prototype that governs agents the w
 
 My favorite lesson: one simulated prompt injection got past my detection rules entirely. It was still blocked, because the agent was never allowed to do that action in the first place. Least privilege is the control that catches what detection misses.
 
-Mapped to NIST AI RMF and CSF 2.0. Code and write-up: [link]
+Mapped to NIST AI RMF and CSF 2.0. Code and write-up: https://github.com/travail-robertson/agentbadge
+
 
 #AIGovernance #Cybersecurity #GRC #IAM #NIST #CareerChange
 
